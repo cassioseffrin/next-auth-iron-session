@@ -1,0 +1,21 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "next build",
+    "dev": "NODE_OPTIONS='--inspect' next dev",
+    "start": "next start"
+  },
+  "dependencies": {
+    "iron-session": "latest",
+    "next": "12.1.6-canary.16",
+    "octokit": "^1.7.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "swr": "^1.0.1"
+  },
+  "devDependencies": {
+    "@octokit/types": "^6.34.0",
+    "@types/react": "^17.0.34",
+    "typescript": "^4.4.4"
+  }
+}
